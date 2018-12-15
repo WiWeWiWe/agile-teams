@@ -1,9 +1,12 @@
-var http = require('http');
-var server = http.createServer(acceptVote);
-server.listen(3000);
+var express = require('express');
+var app = express();
 
-function acceptVote(request, response)
-{
-   response.write("Thank you for your vote!!");
-   response.end;
-}
+var port = process.env.port || 3000;
+
+app.get('/',(request, response) => {
+   response.send("Thanks for your vote. This is provided by express!");
+   console.log('done');
+});
+
+
+app.listen(port,() => console.log(`Listening on port ${port}...`));

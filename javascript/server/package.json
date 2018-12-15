@@ -8,6 +8,6 @@
     "start": "node server.js"
   },
   "author": "Wilko Wenzel",
-  "license": "ISC"
-  
+  "license": "ISC",
+  "dependencies": {"express": "^4.16.0"}
 }
