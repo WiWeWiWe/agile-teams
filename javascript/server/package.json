@@ -1,6 +1,6 @@
 {
   "name": "agile-teams_webserver",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "the webserver of agile-teams",
   "main": "server.js",
   "scripts": {
@@ -9,5 +9,5 @@
   },
   "author": "Wilko Wenzel",
   "license": "ISC",
-  "dependencies": {"express": "^4.16.0"}
+  "dependencies": {"express": "^4.16.0", "winston": ""}
 }
