@@ -1,6 +1,6 @@
 {
   "name": "agile-teams_webserver",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "the webserver of agile-teams",
   "main": "server.js",
   "scripts": {
